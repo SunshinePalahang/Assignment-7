@@ -12,3 +12,6 @@ word_ = sentence.split()
 vowel_ = 0
 vowel_list =['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
 
+for i in word_:
+    sentence_ = sentence_ + len(word_)
+    
