@@ -9,3 +9,7 @@
 #ouput: Valid
 
 password = input("Create password: ")
+
+number = '0123456789'
+capital_letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+special_char = '!@#$%^&*()-_+={[]}|\/:;"<>,.?'
