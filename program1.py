@@ -14,4 +14,6 @@ vowel_list =['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
 
 for i in word_:
     sentence_ = sentence_ + len(word_)
-    
+for j in sentence:
+    if j in vowel_list:
+        vowel_ = vowel_+1
