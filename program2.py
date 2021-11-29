@@ -13,9 +13,12 @@ import re
 while True:
     password = input("Create password: ")
     validity = False
-    if len(password)>15 or len(password)== 15:
+    if (len(password)<15 or len(password)> 30):
         print("Have at least 15 letters")
         continue
     elif not re.search("[A_Z]",password):
         print("Have at least one capital letter")
+        continue
+    elif not re.search("[0-9]",password):
+        print("Have at least one number")
    
