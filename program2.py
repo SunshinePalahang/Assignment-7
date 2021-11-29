@@ -19,4 +19,5 @@ for i in range(len(password)):
         x=1
     if i in capital_letter:
         y=1
-        
+    if i in special_char:
+        z=1
