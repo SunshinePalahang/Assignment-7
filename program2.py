@@ -9,4 +9,8 @@
 #ouput: Valid
 
 import re
+
+while True:
+    password = input("Create password: ")
+    validity = False
    
