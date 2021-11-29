@@ -13,3 +13,8 @@ password = input("Create password: ")
 number = '0123456789'
 capital_letter = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 special_char = '!@#$%^&*()-_+={[]}|\/:;"<>,.?'
+
+for i in range(len(password)):
+    if i in number:
+        x=1
+    
