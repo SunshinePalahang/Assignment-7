@@ -17,4 +17,6 @@ special_char = '!@#$%^&*()-_+={[]}|\/:;"<>,.?'
 for i in range(len(password)):
     if i in number:
         x=1
-    
+    if i in capital_letter:
+        y=1
+        
