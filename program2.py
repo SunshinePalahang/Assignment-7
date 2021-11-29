@@ -24,5 +24,11 @@ while True:
         continue
     elif not re.search("[!@#$%^&*()-_+={[]}|\/:;<>,.?~`]"):
         print("Have at least one special character")
-        
+        continue
+    else:
+        validity = True
+        break
+if (validity):
+    print("Valid")
+
    
