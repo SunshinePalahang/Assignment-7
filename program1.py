@@ -8,15 +8,16 @@
 #consonants: 8
 
 sentence = input("Enter sentence: ")
-word_ = sentence.split()
+sentence_ = sentence.split()
 vowel_ = 0
 vowel_list =['a', 'A', 'e', 'E', 'i', 'I', 'o', 'O', 'u', 'U']
 consonant_ = 0
 
-for i in word_:
-    sentence_ = sentence_ + len(word_)
+for i in sentence_:
+    word_ =+len(sentence_)
 for j in sentence:
     if j in vowel_list:
         vowel_ = vowel_+1
     else:
         consonant_ =  consonant_+1
+print("Output:""\nWords: ",word_, "\nVowels: ",vowel_, "\nConsonant: ", consonant_ )
