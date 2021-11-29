@@ -21,4 +21,8 @@ while True:
         continue
     elif not re.search("[0-9]",password):
         print("Have at least one number")
+        continue
+    elif not re.search("[!@#$%^&*()-_+={[]}|\/:;<>,.?~`]"):
+        print("Have at least one special character")
+        
    
